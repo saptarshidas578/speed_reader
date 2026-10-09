@@ -56,3 +56,6 @@ ehthumbs.db
 # Internal Agent & Scratch temporary outputs
 .system_generated/
 .scratch/
+
+# Netlify local CLI cache
+.netlify/
