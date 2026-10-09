@@ -1,0 +1,52 @@
+{
+  "name": "focus-reader-pro",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Production-grade RSVP speed reading application with dynamic ORP alignment, Bionic reading, peripheral context, and zero-server local storage.",
+  "author": "Saptarshi Das (https://www.linkedin.com/in/saptarshi-das-3255673a1/)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saptarshidas578/speed_reader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/saptarshidas578/speed_reader/issues"
+  },
+  "homepage": "https://github.com/saptarshidas578/speed_reader#readme",
+  "keywords": [
+    "speed-reader",
+    "rsvp",
+    "reading",
+    "accessibility",
+    "bionic-reading",
+    "react",
+    "typescript",
+    "vite",
+    "web-audio",
+    "indexeddb"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "test": "vitest run",
+    "lint": "oxlint",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "jszip": "^3.10.2",
+    "pdfjs-dist": "^6.4.299",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@vitejs/plugin-react": "^6.1.1",
+    "oxlint": "^1.81.0",
+    "typescript": "~6.0.2",
+    "vite": "^8.3.0",
+    "vitest": "^5.0.3"
+  }
+}
